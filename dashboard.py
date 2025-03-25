@@ -524,8 +524,8 @@ elif menu == "Recommendation":
     filtered_df = filtered_df[(filtered_df['minimum nights'] >= max(1, num_nights - 2)) &
                               (filtered_df['minimum nights'] <= num_nights + 2)]
 
-    if not filtered_df.empty:
-        st.subheader("Available Locations")
-        st.write(filtered_df[['NAME', 'price', 'service fee', 'room type', 'availability 365']])
-    else:
-        st.write("No available listings match your criteria.")
+    # if not filtered_df.empty:
+    #     st.subheader("Available Locations")
+    #     st.write(filtered_df[['NAME', 'price', 'service fee', 'room type', 'availability 365']])
+    # else:
+    #     st.write("No available listings match your criteria.")
