@@ -1,7 +1,7 @@
 # Airbnb Booking Insights Dashboard
 📊 A Streamlit-powered interactive dashboard that provides insights into Airbnb listings, helping users make informed booking decisions through data visualization.
 
-🚀 Features
+🚀 Features <br>
 ✔️ Listings Overview: Explore Airbnb listings by location, room type, and availability.
 ✔️ Detailed Insights: Filter listings based on country, neighborhood, price, cancellation policy, and more.
 ✔️ Comparative Analysis: Identify top locations with the highest prices, most reviews, and different room types.
